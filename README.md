@@ -1,1 +1,8 @@
-# SpeechEmotionDetection
+<h1 style="font-size: 36px;">Real-Time Speech Emotion Detection using PyCaret</h1>
+<p style="font-size: 20px;">This project is a real-time Speech Emotion Detection system that uses PyCaret, an open-source AutoML library, to select the best machine learning model for predicting the emotional state of a speaker from an audio recording of their speech. The system uses signal processing techniques to extract relevant features from the audio signal, which are then fed into the PyCaret AutoML pipeline for model selection and training. </p>
+
+<p style="font-size: 20px;">The system is built using Python and the following libraries: PyAudio, NumPy, and PyCaret. The input to the system is a live audio stream from a microphone, and the output is a predicted emotional state label along with a probability score for each of the possible emotions. </p>
+
+<p style="font-size: 20px;">PyCaret provides a simple and intuitive interface for training and evaluating machine learning models, allowing even novice users to quickly build and deploy models for a wide range of applications. The library supports a variety of classification algorithms, including Random Forest, Gradient Boosting, and Support Vector Machines, among others, and automatically performs hyperparameter tuning and model selection to identify the best-performing model for a given task. </p>
+
+<p style="font-size: 20px;">The system is designed for real-time use, allowing it to provide immediate feedback on the emotional state of the speaker. This makes it particularly useful for applications such as live customer service interactions or public speaking events. </p>
